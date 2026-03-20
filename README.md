@@ -2,7 +2,7 @@
 
 Control Lian Li Uni Hub SL V2 fan LEDs on Linux. Single Python script, zero dependencies, no sudo required.
 
-Fixes [OpenRGB issue #4209](https://gitlab.com/CalcProgrammer1/OpenRGB/-/issues/4209) where the SL V2 is detected but color commands are silently ignored.
+Works around an [OpenRGB bug on Linux](https://gitlab.com/CalcProgrammer1/OpenRGB/-/issues/5539) where the SL V2 is detected but color commands are silently ignored. An [upstream fix](https://gitlab.com/CalcProgrammer1/OpenRGB/-/merge_requests/3229) has been submitted.
 
 ## Quick Start
 
